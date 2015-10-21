@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YouTube-dl-Web-GUI Spanish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-21 01:19-0600\n"
+"PO-Revision-Date: 2015-10-21 01:22-0600\n"
+"Last-Translator: Luis Alberto Guzman garcia <ark@switnet.org>\n"
+"Language-Team: SwITNet <ark@switnet.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: /home/ark/build/Youtube-dl-WebUI\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SearchPath-0: /home/ark/build/Youtube-dl-WebUI\n"
+
+#: /home/ark/build/Youtube-dl-WebUI/list.php:43
+msgid "List of available"
+msgstr "Lista disponible de "
+
+#: /home/ark/build/Youtube-dl-WebUI/list.php:47
+msgid "Title"
+msgstr "Título"
+
+#: /home/ark/build/Youtube-dl-WebUI/list.php:48
+msgid "Size"
+msgstr "Tamaño"
+
+#: /home/ark/build/Youtube-dl-WebUI/list.php:49
+msgid "Delete link"
+msgstr "Borrar enlace"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:42
+#: /home/ark/build/Youtube-dl-WebUI/index.php:67
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:25
+msgid "Download"
+msgstr "Descarga"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:57
+msgid "Link(s) separated by a comma"
+msgstr "Enalce(s) separador por una coma"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:62
+msgid "Audio Only"
+msgstr "Solo audio"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:73
+msgid "Info"
+msgstr "Información"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:75
+msgid "Free space"
+msgstr "Espacio libre"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:76
+msgid "Download folder"
+msgstr "Carpeta de descargas"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:78
+msgid "Select a language"
+msgstr "Selecciona un idioma"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:101
+msgid "Help"
+msgstr "Ayuda"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:103
+msgid "How does it work ?"
+msgstr "¿Como funciona?"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:104
+msgid "Simply paste your video link in the field and click \"Download\""
+msgstr "Simplemente pegue el enlace de su video en el campo y de click en \"Descargar\""
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:105
+msgid "With which sites does it work?"
+msgstr "¿Con que sitios funciona?"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:106
+msgid "<a href=\"http://rg3.github.io/youtube-dl/supportedsites.html\">Here is</a> a list of the supported sites"
+msgstr "<a href=\"http://rg3.github.io/youtube-dl/supportedsites.html\">Aquí esta</a> una lista de los sitios soportados"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:107
+msgid "How can I download the video on my computer?"
+msgstr "¿Como puedo descargar el video en mi equipo?"
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:108
+msgid "Go to"
+msgstr "Ir a "
+
+#: /home/ark/build/Youtube-dl-WebUI/index.php:108
+msgid "List of videos</a> -> choose one -> right click on the link -> \"Save target as ...\""
+msgstr "Lista de videos </a> -> selecciona uno -> haz click derecho -> \"Guardar enlace como...\""
+
+#: /home/ark/build/Youtube-dl-WebUI/login.php:17
+msgid "Wrong password !"
+msgstr "¡Contraseña equivocada!"
+
+#: /home/ark/build/Youtube-dl-WebUI/login.php:35
+msgid "Login :"
+msgstr "Inicio de sesión :"
+
+#: /home/ark/build/Youtube-dl-WebUI/login.php:43
+msgid "Password"
+msgstr "Contraseña"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:9
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:21
+msgid "Youtube-dl WebUI"
+msgstr "Youtube-dl WebUI"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:26
+msgid "List of videos"
+msgstr "Lista de videos"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:27
+msgid "List of songs"
+msgstr "Lista de canciones"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:34
+msgid "Background downloads : "
+msgstr "Descargas en segundo plano :"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:43
+msgid "<li><a href=\"#\"><i class=\"fa fa-music\"></i> Elapsed time : "
+msgstr "<li><a href=\"#\"><i class=\"fa fa-music\"></i> Tiempo transcurrido : "
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:47
+msgid "<li><a href=\"#\"><i class=\"fa fa-video-camera\"></i> Elapsed time : "
+msgstr "<li><a href=\"#\"><i class=\"fa fa-video-camera\"></i> Tiempo transcurrido : "
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:52
+msgid "<li><a href=\"./index.php?kill=all\">Kill all downloads</a></li>"
+msgstr "<li><a href=\"./index.php?kill=all\">Interrumpir todas las descargas</a></li>"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:56
+msgid "<li><a>No jobs !</a></li>"
+msgstr "<li><a>¡Sin trabajos!</a></li>"
+
+#: /home/ark/build/Youtube-dl-WebUI/views/header.php:70
+msgid "<li><a href=\"./logout.php\">Logout</a></li>"
+msgstr "<li><a href=\"./logout.php\">Salir</a></li>"
+
+#: /home/ark/build/Youtube-dl-WebUI/class/Downloader.php:39
+msgid "\\\"\".$url.\"\\\" is not a valid url !"
+msgstr "\\\"¡ \".$url.\"\\\" no es un url valido !"
+
+#: /home/ark/build/Youtube-dl-WebUI/class/Downloader.php:61
+msgid "Simultaneous downloads limit reached !"
+msgstr "¡El límite de descargas simultaneas se a alcanzado!"
+
+#: /home/ark/build/Youtube-dl-WebUI/class/Downloader.php:135
+msgid "Youtube-dl is not installed, see <a>https://rg3.github.io/youtube-dl/download.html</a> !"
+msgstr "Youtube-dl no esta instalado, vea <a>https://rg3.github.io/youtube-dl/download.html</a> !"
+
+#: /home/ark/build/Youtube-dl-WebUI/class/Downloader.php:144
+msgid "Install an audio extracter (ex: avconv) !"
+msgstr "¡Instale un extractor de audio (p.e.: avconv)!"
+
+#: /home/ark/build/Youtube-dl-WebUI/class/Downloader.php:181
+msgid "Output folder doesn't exist and creation failed !"
+msgstr "¡La carpeta de salida no existe y su creación falló!"
+
+#: /home/ark/build/Youtube-dl-WebUI/class/Downloader.php:189
+msgid "Output folder isn't writable !"
+msgstr "¡La carpeta de salida no tiene permisos de escritura!"
+
+#~ msgid "Elapsed time :"
+#~ msgstr "Tiempo transcurrido"

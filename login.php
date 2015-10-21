@@ -1,7 +1,8 @@
 <?php
 	require_once 'class/Session.php';
 	require_once 'class/Downloader.php';
-
+	require_once 'locale/language.php';
+	
 	$session = Session::getInstance();
 	$loginError = "";
 
@@ -13,7 +14,7 @@
 		}
 		else
 		{
-			$loginError = "Wrong password !";
+			$loginError = _("Wrong password !");
 		}
 	}
 ?>
@@ -31,7 +32,7 @@
 	<div class="row">
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
-			<h2>Login :</h2>
+			<h2><?php echo _("Login :");?></h2>
 		</div>
 		<div class="col-md-4"></div>
 	</div>
@@ -39,7 +40,7 @@
 		<div class="form-group">
 			<div class="col-lg-4"></div>
 				<div class="col-lg-4">
-					<input class="form-control" id="password" name="password" placeholder="Password" type="password">
+					<input class="form-control" id="password" name="password" placeholder="<?php echo _("Password")?>" type="password">
 				</div>
 			<div class="col-lg-4"></div>
 		</div>

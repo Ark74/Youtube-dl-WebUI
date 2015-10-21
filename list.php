@@ -2,7 +2,8 @@
 	require_once 'class/Session.php';
 	require_once 'class/Downloader.php';
 	require_once 'class/FileHandler.php';
-
+	require_once 'locale/language.php';
+		
 	$session = Session::getInstance();
 	$file = new FileHandler;
 
@@ -39,13 +40,13 @@
 			if(!empty($files))
 			{
 		?>
-			<h2>List of available <?php echo $type ?> :</h2>
+			<h2><?php echo _("List of available");?> <?php echo $type ?> :</h2>
 			<table class="table table-striped table-hover ">
 				<thead>
 					<tr>
-						<th style="min-width:800px; height:35px">Title</th>
-						<th style="min-width:80px">Size</th>
-						<th style="min-width:110px">Delete link</th>
+						<th style="min-width:800px; height:35px"><?php echo _("Title");?></th>
+						<th style="min-width:80px"><?php echo _("Size");?></th>
+						<th style="min-width:110px"><?php echo _("Delete link");?></th>
 					</tr>
 				</thead>
 				<tbody>

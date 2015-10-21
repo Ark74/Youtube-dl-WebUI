@@ -1,4 +1,6 @@
 <?php
+	require_once 'class/FileHandler.php';
+	require_once 'locale/language.php';
 
 class Downloader
 {
@@ -34,7 +36,7 @@ class Downloader
 		{
 			if(!$this->is_valid_url($url))
 			{
-				$this->errors[] = "\"".$url."\" is not a valid url !";
+				$this->errors[] = _('\"".$url."\" is not a valid url !');
 			}
 		}
 
@@ -56,7 +58,7 @@ class Downloader
 			}
 			else
 			{
-				$this->errors[] = "Simultaneous downloads limit reached !";
+				$this->errors[] = _("Simultaneous downloads limit reached !");
 			}
 		}
 
@@ -130,7 +132,7 @@ class Downloader
 	{
 		if($this->is_youtubedl_installed() != 0)
 		{
-			$this->errors[] = "Youtube-dl is not installed, see <a>https://rg3.github.io/youtube-dl/download.html</a> !";
+			$this->errors[] = _("Youtube-dl is not installed, see <a>https://rg3.github.io/youtube-dl/download.html</a> !");
 		}
 
 		$this->check_outuput_folder();
@@ -139,7 +141,7 @@ class Downloader
 		{
 			if($this->is_extracter_installed() != 0)
 			{
-				$this->errors[] = "Install an audio extracter (ex: avconv) !";
+				$this->errors[] = _("Install an audio extracter (ex: avconv) !");
 			}
 		}
 
@@ -176,7 +178,7 @@ class Downloader
 			//Folder doesn't exist
 			if(!mkdir($this->download_path, 0775))
 			{
-				$this->errors[] = "Output folder doesn't exist and creation failed !";
+				$this->errors[] = _("Output folder doesn't exist and creation failed !");
 			}
 		}
 		else
@@ -184,7 +186,7 @@ class Downloader
 			//Exists but can I write ?
 			if(!is_writable($this->download_path))
 			{
-				$this->errors[] = "Output folder isn't writable !";
+				$this->errors[] = _("Output folder isn't writable !");
 			}
 		}
 	}

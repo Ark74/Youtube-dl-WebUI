@@ -12,7 +12,7 @@ It supports simultaneous downloads in background.
 
 ## Requirements
 - A web server (Apache or nginx)
-- PHP latest version should be fine.
+- PHP >= 5.4 or latest version should be fine.
 - Python 2.7 for Youtube-dl
 - [Youtube-dl](https://github.com/rg3/youtube-dl)
 - avconv or other is required for audio extraction (from youtube-dl doc) :
